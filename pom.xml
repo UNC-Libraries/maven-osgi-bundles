@@ -12,7 +12,7 @@
 		<repository>
 			<id>renci-releases</id>
 			<name>RENCI Releases</name>
-			<url>https://ci-dev.renci.org/nexus/content/repositories/releases/</url>
+			<url>http://ci-dev.renci.org/nexus/content/repositories/releases/</url>
 		</repository>
 	</repositories>
         <pluginRepositories>
@@ -55,7 +55,7 @@
 								</artifact>
 								<!-- iRODS EFS Plugin -->
 								<artifact>
-									<id>org.irods.jargon:jargon-core:3.3.1</id>
+									<id>org.irods.jargon:jargon-core:3.2.1.4</id>
 								</artifact>
 								<!-- Staging Areas Plugin -->
 								<artifact>
