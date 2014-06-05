@@ -10,6 +10,19 @@
 	<name>Logging Bundles P2 Repository</name>
 	<repositories>
 		<repository>
+			<id>dice.repository</id>
+			<name>dice.repository</name>
+			<url>https://raw.github.com/DICE-UNC/DICE-Maven/master/releases</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+				<updatePolicy>always</updatePolicy>
+				<checksumPolicy>warn</checksumPolicy>
+				</snapshots>
+		</repository>
+		<repository>
 			<id>renci-releases</id>
 			<name>RENCI Releases</name>
 			<url>http://ci-dev.renci.org/nexus/content/repositories/releases/</url>
@@ -55,7 +68,7 @@
 								</artifact>
 								<!-- iRODS EFS Plugin -->
 								<artifact>
-									<id>org.irods.jargon:jargon-core:3.2.1.4</id>
+									<id>org.irods.jargon:jargon-core:3.3.2-RELEASE</id>
 								</artifact>
 								<!-- Staging Areas Plugin -->
 								<artifact>
